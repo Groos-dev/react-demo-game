@@ -1,0 +1,25 @@
+.square {
+    float: left;
+    background: #fff;
+    border: 1px solid #999;
+    height: 34px;
+    width: 34px;
+    line-height: 34px;
+    text-align: center;
+    margin-left: -1px;
+    margin-top: -1px;
+}
+
+.board-row::after {
+    clear: both;
+    content: "";
+
+    display: block;
+}
+
+.winner {
+    margin-top: 40px;
+    float: left;
+    color: red;
+    font-size: medium;
+}
